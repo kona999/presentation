@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    position:fixed;
+    z-index: 200;
+    width:100%;
+}
+.navbar:hover {
+    background: red;
+}
+
+.navbar-brand {
+    color: red;
+}
+.nav>li>a {
+    color: red;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.item img {
+    width: 100%;
+}
+
+.carousel-caption {
+    top: 50%;
+}
+
+#carousel-example-generic{
+    width:100%;
+    top: 0;
+}
+
+
+.raphael-area .btn{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    background: red;
+    border: none;
+    bottom: 30px;
+    margin-bottom: 60px;
+    padding: 20px 30px;
+}
+
+.raphael-area .btn:hover{
+    box-shadow: 0 0 5px #000000;
+}
+.thumbnail{
+    transition: all .3s;
+    margin-top: 70px;
+}
+.thumbnail .fa{
+    font-size: 90px;
+    color: red;
+}
+.thumbnail h3{
+    color:red;
+}
+.thumbnail p{
+    text-align: justify;
+}
+.thumbnail:hover{
+    box-shadow: 0 0 25px #ddd;
+}
+.thumbnail:hover .fa{
+    opacity: .7;
+    color:#078057
+}
+
+
+
+.top-hover .fa{
+    position: absolute;
+    top: 25%;
+    right: 10%;
+    color: #fff;
+    opacity: 0;
+    background: red;
+    padding: 10px;
+    border-radius: 5px;
+    transition: .5s;
+}
+
+
+.thumbnail img{
+    width: 100%;
+}
+.top-hover .bottom-hover h3{
+    padding-left: 15px;
+    color: #fff;
+}
+.top-hover .bottom-hover p{
+    color: #fff;
+    padding-left: 15px;
+}
+.top-hover .bottom-hover{
+    position: absolute;
+    display: block;
+    bottom: 6%;
+    max-width: 100%;
+    opacity: 0;
+    transition: .5s;
+}
+.cearch-bar:hover .bottom-hover{
+    opacity: 1;
+}
+.cearch-bar:hover .top-hover .fa{
+    opacity: 1;
+}
+
+
+
+
+.bottom-btn {
+    margin-top: 80px;
+    font-size: 32px;
+}
+
+
+.get-touch-area{
+    margin: 90px 0 120px
+}
+.get-touch-area h2{
+    color:red;
+    font-size: 40px;
+    padding: 40px 0;
+}
+
+.get-touch{
+    margin-top: 110px;
+    color: #fff;
+    font-size: 20px;
+}
+
+
+
+
+
+footer{
+    background-color: red;
+    padding: 30px 0;
+}
+
+.social-items .fa{
+    padding: 20px 30px;
+    border: 5px solid #c70d0d;
+    font-size: 40px;
+    margin-top: -80px;
+    position: absolute;  
+    box-shadow: 0 0 25px #ddd;
+    color: red;
+    background: #fff;
+}
+.social-items .fa:hover{
+    color: aquamarine;
+    box-shadow: 0 0 25px #c7c5c5;
+}
+
+.copy-right-area{
+    padding: 60px 0;
+    color: #fff;
+}
